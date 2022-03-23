@@ -1,0 +1,119 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+     overflow-x: hidden;
+}
+
+header{ 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  background-color: rgb(7, 74, 119);
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #fff;
+  overflow: hidden;
+  place-items: center;
+  z-index: 2;
+  height: 70px;
+}
+
+header .container_nav {
+color: antiquewhite;
+
+}
+header .container_nav h1 span{
+    color: violet;
+}
+
+#links a{
+    color: antiquewhite; 
+    font-size: medium;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+#links a:hover{
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    top: 0;
+
+}
+
+main .container_newsletter{
+ background-image: url('../images/laptop.jpg');
+min-height: 400px;
+padding-top: 100px;
+width: 100%;
+text-align: center;
+color: aliceblue;
+font-weight:bold;
+
+}
+main .container_newsletter h1{
+    font-size: 60px;
+}
+
+main .container_newsletter p{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+
+
+.container_article{
+    background-color:rgb(7, 74, 119);
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    color: antiquewhite;
+    
+}
+
+button{
+    background-color: violet;
+    color: antiquewhite;
+}
+main .grid_box{
+    display: grid;
+    grid-template-columns:auto auto auto;
+   /*margin: 20px 0 20px 180px;*/
+    
+}
+main .grid_box .box{
+    text-align: center;
+    padding-top: 20px;
+}
+
+main .grid_box .box img{
+height: 150px;
+margin: auto;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width: 100vw;
+      color:#f4f4f4;
+      background-color:rgb(7, 74, 119);
+      text-align: center;
+      margin-top: 100px;
+      left:0;
+  }
